@@ -55,12 +55,12 @@
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
-   <xsl:param name="outputDir">/Users/administrator/Documents/moje/publikacije/Odlivanje_smrti/</xsl:param>
+   <xsl:param name="outputDir">docs/</xsl:param>
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/my-html_param.xsl -->
    <xsl:param name="title-bar-sticky">false</xsl:param>
    
-   <xsl:param name="chapterAsSIstoryPublications">true</xsl:param>
+<!--   <xsl:param name="chapterAsSIstoryPublications">true</xsl:param>-->
    
    <!-- TODO: NE VEM zakaj v tem to.xsl ni deloval template name sistoryID za spodaj dodane povezave.
         Mogoče problem z lido namespace?
@@ -1257,10 +1257,10 @@
       </xsl:choose>
    </xsl:template>
    
-   
+   <!--
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
       <xsldoc:desc> Ker sta pri body poglavjih samo dva div z vsebino, poenostavim prvotni template </xsldoc:desc>
    </xsldoc:doc>
-   <xsl:template name="nav-body-head">Seznama</xsl:template>
+   <xsl:template name="nav-body-head">Seznama</xsl:template>-->
    
 </xsl:stylesheet>
