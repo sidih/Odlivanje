@@ -54,6 +54,8 @@
    
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
    
+   <xsl:param name="path-general">https://www2.sistory.si/publikacije/</xsl:param>
+   
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
    <xsl:param name="outputDir">docs/</xsl:param>
    
@@ -472,7 +474,7 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
       <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
       <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      <script type="text/javascript" src="https://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
       
       <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
       <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
@@ -603,7 +605,7 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
       <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
       <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      <script type="text/javascript" src="https://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
       
       <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
       <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
@@ -859,7 +861,7 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
       <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
       <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      <script type="text/javascript" src="https://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
       
       <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
       <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
@@ -1037,7 +1039,7 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
       <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
       <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="http://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
+      <script type="text/javascript" src="https://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js"></script>
       
       <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
       <link href="https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />
